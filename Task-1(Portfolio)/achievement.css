@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.head{
+   display: flex;
+   flex-direction: row;
+   margin-top: 90px;
+   margin-left: 180px;
+
+  
+}
+#heading{
+    font-size: 80px;
+   text-align: center;
+   text-decoration: underline;
+   color:rgb(247, 169, 1);
+}
+.head ul li{
+    list-style: inside;
+    font-size: 30px;
+    color:aqua
+}
+.pic img{
+    height:300px;
+    width:500px;
+}
