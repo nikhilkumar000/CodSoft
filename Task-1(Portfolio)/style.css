@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+#navbar li{
+    list-style: none;
+    float: left;
+    /* font-weight: 1000; */
+    padding:0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 50px;
+    
+    
+    /* position:relative; */
+    
+
+}
+#navbar li a{
+
+text-decoration: none;
+color:white;
+
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+ color:  #3300ec
+}
+
+/* #navbar li a.active::after,
+#navbar li a:hover::after{
+   content: "";
+   width: 50%;
+} */
+#header {
+   display:flex;
+   background-color: rgb(247, 169, 1);
+position:sticky;
+top:0px;
+   justify-content: space-between;
+  
+  
+}
+.home{
+    background-color: black;
+}
+#intro{
+    color:white;
+}
+#post{
+    color:rgb(247, 169, 1);
+}
+.profile{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -500px;
+}
+#logo{
+   font-size: 30px;
+   /* margin-left:80px; */
+   margin-top: -20px;
+}
+.profile_icon{
+    margin-left:50px;
+    margin-right: 0px;
+}
+.home{
+    text-align:center;
+}
+#intro{
+    padding-top:20px;
+}
+#post{
+    font-size: 65px;
+}
+#about{
+    color:rgb(247, 169, 1);
+    text-decoration: underline;
+    margin-top:150px;
+}
+.bio{
+  display: flex;
+  align-items: flex-start;
+  background-color: black;
+  /* width:100%; */
+}
+.bio p,h1{
+    color:white;
+   
+}
+.biodescription{
+    background-color: black;
+    width:100%;
+    margin-left: 50px;
+    
+  
+}
+.bio h1{
+    padding-top:100px;
+}
+.pic {
+    padding-left: 80px;
+}
+.contact{
+    background-color: black;
+}
+.contact h1{
+    font-size: 40px;
+    color:rgb(247, 169, 1);
+    /* margin-left: 50px; */
+    text-align: center;
+    text-decoration: underline;
+
+}
+.icon a{
+   margin-left: 170px;
+   margin-top: 50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-instagram {
+    background: pink;
+    color: white;
+   
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .contact p{
+    color:white;
+    font-size: medium;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
